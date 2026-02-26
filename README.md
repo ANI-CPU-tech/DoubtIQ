@@ -106,5 +106,4 @@ AI_Augmented_ATP/
 - **JWT Auth:** Secure authentication with access and refresh tokens.
 - **Role-based Access:** Dedicated dashboards and layouts for Students and Teachers.
 
-## 📄 License
-This project is licensed under the MIT License.
+
