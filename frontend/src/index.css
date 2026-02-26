@@ -1,0 +1,68 @@
+:root {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #f8fafc; /* Matches our new app background */
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Reset default margins so our 100vh app containers sit perfectly flush */
+body, html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+
+a:hover {
+  color: #535bf2;
+}
+
+/* =========================================
+   GLOBAL LOGOUT BUTTON
+   ========================================= */
+.global-logout-btn {
+  position: absolute;
+  top: 1.5rem;
+  right: 2.5rem;
+  z-index: 1000; /* Ensures it stays on top of everything else */
+  
+  /* Styling to match our premium UI buttons */
+  background: #ffffff;
+  color: #f1416c;
+  border: 1px solid #ffe2e5;
+  padding: 0.6rem 1.2rem;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  font-family: inherit;
+  font-size: 0.9rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+  transition: all 0.2s ease;
+}
+
+.global-logout-btn:hover {
+  background: #f1416c;
+  color: #ffffff;
+  border-color: #f1416c;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(241, 65, 108, 0.2);
+}

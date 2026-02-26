@@ -1,0 +1,43 @@
+# =========================
+# Core Django
+# =========================
+Django>=5.0
+djangorestframework>=3.15
+django-cors-headers>=4.3
+django-dotenv>=1.4
+
+# =========================
+# Authentication (JWT)
+# =========================
+djangorestframework-simplejwt>=5.3
+
+# =========================
+# Channels + WebSockets
+# =========================
+channels>=4.0
+daphne>=4.0
+channels-redis>=4.1
+redis>=5.0
+
+# =========================
+# AI / ML
+# =========================
+sentence-transformers>=2.7
+scikit-learn>=1.4
+numpy>=1.26
+torch>=2.2
+
+# =========================
+# HTTP Requests (Ollama)
+# =========================
+requests>=2.31
+
+# =========================
+# Database (PostgreSQL)
+# =========================
+psycopg2-binary>=2.9
+
+# =========================
+# Production Server
+# =========================
+gunicorn>=21.2
