@@ -66,7 +66,13 @@ AI_Augmented_ATP/
    ```bash
    pip install django djangorestframework django-cors-headers django-dotenv djangorestframework-simplejwt channels[daphne]
    ```
-4. **Environment Variables:**
+   ```bash
+   pip install -r requirements.txt
+   ```
+   If requirements.txt is missing: then generate it
+   ```bash
+   pip freeze > requirements.txt
+5. **Environment Variables:**
    Create a `.env` file in the `backend/` directory:
    ```env
    DEBUG=True
@@ -77,11 +83,16 @@ AI_Augmented_ATP/
    DB_HOST=localhost
    DB_PORT=5432
    ```
-5. **Run Migrations:**
+
+6. **Generate Django Secret Key:**
+   ```bash
+   python -c "from django.core.management.utils import get_random_secret_key; print(get_random_secret_key())"
+   ```
+7. **Run Migrations:**
    ```bash
    python manage.py migrate
    ```
-6. **Start the server:**
+8. **Start the server:**
    ```bash
    python manage.py runserver
    ```
