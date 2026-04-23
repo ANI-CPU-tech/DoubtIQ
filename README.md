@@ -2,6 +2,8 @@
 
 AI-Augmented ATP is a full-stack educational platform designed to enhance the learning experience through AI-driven insights and real-time interaction. It provides teachers with tools to manage study materials (Decks) and facilitate real-time engagement (Clusters), while students benefit from an adaptive and interactive learning environment.
 
+![Dashboard](assets/Dashboard.jpeg)
+
 ## Project Overview
 
 The platform is split into a robust Django-based backend and a modern React-based frontend.
@@ -110,6 +112,9 @@ AI_Augmented_ATP/
    ```bash
    npm run dev
    ```
+
+### Cluster Formations
+![Dashboard](assets/Dashboard.jpeg)
 
 ## Key Features
 - **Real-time Clusters:** Interactive sessions between teachers and students using WebSockets.
