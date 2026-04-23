@@ -2,14 +2,14 @@
 
 AI-Augmented ATP is a full-stack educational platform designed to enhance the learning experience through AI-driven insights and real-time interaction. It provides teachers with tools to manage study materials (Decks) and facilitate real-time engagement (Clusters), while students benefit from an adaptive and interactive learning environment.
 
-## 🚀 Project Overview
+## Project Overview
 
 The platform is split into a robust Django-based backend and a modern React-based frontend.
 
 - **Backend:** Django REST Framework, Django Channels (WebSockets), PostgreSQL, and JWT Authentication.
 - **Frontend:** React, Vite, React Router, and Axios.
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 ### Backend
 - **Framework:** Django 5.1
@@ -25,7 +25,7 @@ The platform is split into a robust Django-based backend and a modern React-base
 - **Routing:** React Router 7
 - **HTTP Client:** Axios
 
-## 📂 Project Structure
+## Project Structure
 
 ```text
 AI_Augmented_ATP/
@@ -44,7 +44,7 @@ AI_Augmented_ATP/
 └── venv/               # Python Virtual Environment
 ```
 
-## ⚙️ Getting Started
+## Getting Started
 
 ### Prerequisites
 - Python 3.13+
