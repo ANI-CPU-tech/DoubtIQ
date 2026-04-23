@@ -111,7 +111,7 @@ AI_Augmented_ATP/
    npm run dev
    ```
 
-## 🌟 Key Features
+## Key Features
 - **Real-time Clusters:** Interactive sessions between teachers and students using WebSockets.
 - **Dynamic Decks:** Manage study modules with support for PDF and PPTX file conversions.
 - **JWT Auth:** Secure authentication with access and refresh tokens.
